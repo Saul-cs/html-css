@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*CABEÇALHO*/
+
+header {
+    height: 300px;
+    background: url(imagens/fundo.png) repeat-x;
+}
+header #container {
+    width: 750px;
+    margin: 0 auto;
+    
+}
+header #topo {
+    height: 170px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+    /*border: 1px solid red;*/
+}
+header .logo {
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+header #topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+header #topo ul li {
+    float: left;
+}
+header ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(imagens/divisor.png) no-repeat left center;
+}
+header ul .first a {
+    background: none;
+}
+header ul a:hover {
+    color: #69001d;
+}
+header ul #select {
+    color: white;
+    background: #de003e;
+    cursor: text;
+
+}
+/*CABEÇALHO*/
+
+/*Article*/
+
+article {
+    margin-top: 60px;
+    background: #ff2525;
+}
+#primario {
+    width: 270px;
+    background: blue;
+    float: left;
+    margin: 0px 0px 20px 195px;
+
+}
+#secundario {
+    width: 270px;
+    background: green;
+    margin: 0px 0px 20px 15px;
+    float: left;
+
+}
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0px 0px 20px -750px;
+}
+#Duas-colunas #primario {
+    width: 555px;
+    background: blue;
+    float: left;
+    margin: 0px 0px 20px 195px;
+}
+#Uma-coluna #primario {
+    width: 750px;
+    background: blue;
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+/*Caixas*/
+.caixa {
+    padding: 5px;
+    margin: 10px 0px;
+    background: #f3f3f3 url(imagens/fundo-caixa.png);
+}
+article ul li {
+    padding: 10px;
+}
+article ul li:hover {
+    background: url(imagens/marcador.png) no-repeat left center;
+    color: rgb(158, 158, 158);
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.caixa-conteudo {
+    margin-top: 5px;
+    background: white;
+}
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+/*Caixas*/
+/*Form*/
+
+label {
+    display: block;
+    cursor: pointer;
+}
+input {
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid gray
+}
+input.submit {
+    width: 80px;
+    color: white;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+}
+
+/*Form*/
+/*Rodapé*/
+.rodape {
+    color: white;
+    font-weight: bold;
+    text-align: center
+}
+
+footer {
+    background: #294c71;
+    padding: 20px;
+}
+footer div {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bolder;
+}
+
+/*Rodapé*/

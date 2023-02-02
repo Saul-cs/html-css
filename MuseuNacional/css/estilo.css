@@ -1,0 +1,205 @@
+
+* {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*------------------------------------------------HEADER------------------------------------------------*/
+header {
+	background: #f4f2ec url(../img/fundo.png) repeat-x center center;
+	width: 100%;
+	height: 150px;
+}
+#logo {
+	margin-top: 30px;
+	margin-left: 100px;
+
+}
+header ul {
+	font-size: 13px;
+	text-transform: uppercase;
+	display: flex;
+	list-style-type: none;
+	margin: -18px 0px 0px 580px;	
+}
+header li {
+	margin-right: 30px;
+}
+
+header ul a {
+	text-decoration: none;
+	color: RGB(168, 110, 19);
+}
+header ul a:hover {
+	position: relative;
+	color: rgb(28, 85, 26);
+	border-bottom: gray solid 1px;
+	padding-bottom: 5px;
+}
+/*------------------------------------------------LEFT------------------------------------------------*/
+main {
+	position: relative;
+	top: -65px;
+	margin: auto;
+	width: 1080px;
+}
+article {
+	margin: 0px 0px 100px 0px;
+	width: 710px;
+	float: left;
+}
+aside {
+	float: right;
+	width: 350px;
+}
+
+article h4 {
+	color: rgb(0, 138, 0);
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+/*subdivisao esquerda*/
+
+article ul a {
+	color: RGB(168, 110, 19);
+	text-decoration: none;
+}
+article ul a:hover {
+	color: rgb(28, 85, 26);
+}
+article ul li {
+	font-size: 15px;
+}
+
+#primeira {
+	float: left;
+	width: 340px;
+}
+
+/*subdivisao direita*/
+
+#segunda {
+	float: right;
+	width: 340px;
+}
+.subtext-left {
+	font-size: 14px;
+	text-indent: 4px;
+	line-height: 19px;
+}
+main article #segunda li {
+	list-style: none;
+	text-indent: -40px;
+}
+
+/*------------------------------------------------RIGHT------------------------------------------------*/
+
+aside h4 {
+	color: rgb(143, 109, 43);
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+aside #depoimento {
+	margin-top: -17px;
+	margin-bottom: -5px;
+
+}
+#cadastro {
+	background-color: #cdc8b1;
+	width: 350px;
+	height: 140px;
+	border-radius: 5px 20px;
+	font-weight: lighter;
+	font-size: 14px;
+}
+aside fieldset {
+	width: 290px;
+	margin: auto;
+	margin-bottom: 4px;
+	border: none;
+}
+#titulo-cadastro {
+	position: relative;
+	top: 15px;
+	left: 15px;
+}
+input {
+	width: 30px;
+}
+input.data {
+	width: 110px;
+}
+input.btn {
+	display: block;
+	margin: auto;
+	font-size: 17px;
+	width: 290px;
+	border: none;
+	background-color: #978d6b;
+	height: 40px;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+input.btn:hover {
+	display: block;
+	margin: auto;
+	font-size: 17px;
+	width: 290px;
+	border: none;
+	background-color: #706a56;
+	height: 40px;
+	color: white;
+	transition: 0.3s;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+/*GALERIA DE FOTO*/
+aside #galeria {
+	position: relative;
+	left: 30px;
+}
+
+aside #galeria a {
+	position: relative;
+	left: 30px;
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 15px;
+}
+
+/*------------------------------------------------FOOTER------------------------------------------------*/
+body {
+	height: 1000px;
+}
+footer {
+	clear: both;
+	position: relative;
+	top: -90px;
+}
+
+footer li,a {
+	text-decoration: none;
+	list-style: none;
+	margin: 6px;
+	font-size: 14px;
+	color: RGB(168, 110, 19);
+}
+footer a:hover {
+	color: rgb(28, 85, 26);
+	text-decoration: none;
+	list-style: none;
+	margin: 6px;
+	font-size: 14px;
+}
+footer ul {
+	display: flex;
+	justify-content: center;
+	margin-bottom: -10px;
+}
+#text-footer {
+	font-size: 14px;
+	text-align: center;
+}

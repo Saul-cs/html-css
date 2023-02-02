@@ -1,0 +1,58 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    
+    height: 100%;
+}
+.bloco {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+span {
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.caixa-1, .caixa-2 {
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    opacity: 0.75;
+}
+.caixa-1 {
+    background-image: url(imagens/imagem1.jpg);
+}
+.caixa-2 {
+    background-image: url(imagens/imagem2.jpg);
+}
+.parallax {
+    text-align: justify;
+    margin: 100px auto 100px auto;
+    width: 80%;
+    color: rgb(173, 173, 173);
+}
+p {
+    margin: 15px;
+}
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
