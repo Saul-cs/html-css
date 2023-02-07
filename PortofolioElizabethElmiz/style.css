@@ -4,4 +4,89 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+:root {
+    color: var(RGB(25, 211, 98));
+}
+/*===================CABEÇALHO===================*/
+/*LOGO*/
+header #LOGO {
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+    border-radius: 50%;
+    padding-top: 7px;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    border: 2px RGB(32, 212, 114) solid;
+    font-size: 28px;
+    color: RGB(32, 212, 114);
+    float: left;
+}
+/*NAV HEADER CABEÇALHO EM GERAL*/
+header {
+    border: 1px red solid;
+    height: 90px;
+    
+}
+nav {
+    padding-top: 25px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    width: 90vw;
+    height: 90px;
+    border: 3px blue solid;
+}
+ul {
+    margin-right: 30px;
+    border: 2px purple solid;
+    display: flex;
+    gap: 0.1vw;
+}
+header nav a {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+header nav a:hover {
+    
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: 1px RGB(32, 212, 114) solid;
+    color: RGB(32, 212, 114);
+    transition: 0.5s;
+    cursor: pointer;
+}
+header li, header a {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+/*===================CORPO MEDIO===================*/
+body, html {
+    height: 100%;
+}
+.bloco-1 {
+    background: url(img/background-escuro.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
 
+
+
+
+/*===================RESTO===================*/
+article {
+    height: 60%;
+}
+footer {
+    background-color: black;
+    height: 40%;
+}
