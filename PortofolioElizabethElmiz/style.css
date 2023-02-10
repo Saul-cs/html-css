@@ -5,6 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 :root {
     --cor0: #2ecc71;
@@ -153,6 +154,9 @@ footer {
 }
 /*776px*/
 @media (max-width : 776px) {
+    body, html {
+        min-width: 100vw;
+    }
     #LOGO {
         display: none;
     }
@@ -218,6 +222,9 @@ footer {
     }
 }
 @media (max-width : 555px) {
+    body, html {
+        min-width: 100vw;
+    }
     header {
         width: 100vw;
     }
@@ -226,7 +233,6 @@ footer {
         height: 90px;
     }
     ul {
-        width: 100vw;
         display: block;
         margin: auto;
         padding: 0px;
