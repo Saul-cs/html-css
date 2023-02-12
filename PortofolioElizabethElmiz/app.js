@@ -15,3 +15,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     .go()
 })
+
+//const menuLinks = document.querySelectorAll('.menu a[href^="#"]')
